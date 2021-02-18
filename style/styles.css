@@ -12,13 +12,15 @@ body {
 	background-size: 175px 175px;
 	background-position: top center;
 }
-h1, h2, h3, h4, h5, h6, th {
+
+h1{
 	margin-top: 0;
-	color: black;
+	color: rgb(62, 52, 87);
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1.3em;
+	font-size: larger;
 	text-align: left;
 }
+
 h2 {
 	background-color: #9F9438;
 	opacity: 0.7;
@@ -94,12 +96,49 @@ td { padding: 8px; }
 /* ----- Page Header ----- */
 .page-header h1 { 
 	margin: 15px 0 0; 
-	font-size: 1.7em;
+	font-size: 2.5em;
 }
 .page-header a { 
 	text-decoration: none; 
 	padding: 5px;
 }
+
+#div1{
+	position: relative;
+}
+
+#span1{
+	position: absolute;
+	width: 100%;
+	bottom: 5px;
+	left: 0px;
+	text-align: right;
+	font-size: 10px;
+	color:white;
+}
+
+#span2{
+	position: absolute;
+	width: 100%;
+	bottom: 40%;
+	left: 0;
+	text-align: center;
+	font-size: 100px;
+	font-family: Helvetica, Arial, sans-serif;
+	color:white;
+}
+
+#span3{
+	position: absolute;
+	width: 100%;
+	bottom: 30%;
+	left: 0;
+	text-align: center;
+	font-size: 30px;
+	font-family: Helvetica, Arial, sans-serif;
+	color:white;
+}
+
 .page-header a:hover { background-color: #BBB576; }
 .page-header a:active { background-color: LightGray; }
 
@@ -111,8 +150,18 @@ td { padding: 8px; }
 	font-size: 0.7em;
 }
 
+.footer{
+	border-top: dotted;
+	position: center bottom;
+    color:rgb(74, 73, 97);
+    clear:both;
+    text-align:center;
+	padding:5px;
+	margin-bottom: 30px;	 
+}
+
 /* ----- Main Menu ----- */
-.main-menu { margin-bottom: 55px; }
+.main-menu { margin-top:5px; margin-bottom: 35px; }
 .main-menu ul {
   list-style: none;
   margin-left: 0;
@@ -121,5 +170,5 @@ td { padding: 8px; }
   flex-wrap: wrap;
 }
 .main-menu li { margin-right: 2%; }
-.main-menu a { padding: 5px; }
+.main-menu a { padding: 5px; font-size: 20px;}
 .is-current { background-color: #BBB576; }
