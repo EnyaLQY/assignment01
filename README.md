@@ -1,13 +1,8 @@
-# assignment01
-Vikram Gupta, Assignment 1
-NewOrleans.html 
-    Web page describing the city of New Orleans.  
-    Links to nolaThingsToDo.html created by me.
-    Other links will take you to the original NewOrleans website neworleans.com
-    
-    From this page you can signup for our fictional newsletter by providing your name and email.  
-    Submit action uses the javascript subscribe.js
+# Assignment02: Github
+Making improvements to Vikram Gupta's Assignment 1.
+(https://github.com/vgupta117/assignment01)
 
-subscribe.js
-    The javascript takes the input name and email and saves to a comma separated file named signup.csv.  
-    Saving the file is wip, currently just pops up a message confirming that they are subscribed.
+*Layout: I think the navigation bar before is a little confusing since most of them will take you go to the original recourses websites. There are only two pages that are created by Vikram. Therefore, I create a new section for these "Other Helpful Links" and move them into then content section. I think it makes the navigation clearer and more understandable. Also, I move the resource links to the right cornor of each picture, which makes the webpage look more compact. Readers will be less likely to be disrupted by the source links.
+
+*Embellishment: I changed the color of the title bar to violet and changed some font-styles. It looks more fancy and fits my impression to New Orleans. Besides, I cropped the banner and adjust the saturation of some pictures, which are more vibrant. I still keep the background color white in order to keep the website simple and more readable for the viewers. 
+
